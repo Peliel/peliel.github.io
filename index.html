@@ -2,34 +2,44 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>My products</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div id="top">
-        <p id="language">English</p>
-    </div>
     <div id="page">
-        <h1>My products</h1>
-        <ul>
-            <li>Web pages
+        <h1 id="header">My products</h1>
+        <ul id="list">
+            <li id="wpages"><p id="wph">Web pages</p>
                 <ul>
-                    <li><a href="/ilmio">Biblical magi.</a> In Finnish only</li>
+                    <li id="bmagi">
+                        <a href="https://peliel.github.io/ilmio/">Biblical magi.</a><span> Only in Finnish</span>
+                    </li>
                 </ul>
-            </li>
-            <li>Web applications
+            </li><br />
+            <li id="wapps"><p id="wah">Web applications</p>
                 <ul>
-                    <li><a href="/dodger">Dodger</a></li>
-                    <li><a href="/kboard_worm">Keyboard Worm</a></li>
+                    <li id="dodger">
+                        <a href="https://peliel.github.io/dodger/">Dodger</a>
+                    </li>
+                    <li id="kb_worm">
+                        <a href="https://peliel.github.io/kboard_worm/">Keyboard worm</a>
+                    </li>
                 </ul>
-            </li>
-            <li>Desktop applications
+            </li><br />
+            <li id="dapps"><p id="dah">Desktop applications</p>
                 <ul>
-                    <li><a href="/classroom">Desktop link to Google Classroom</a></li>
+                    <li id="clink">
+                        <a href="https://peliel.github.io/classroom/">Desktop link to Google Classroom</a>
+                    </li>
                 </ul>
             </li>
         </ul>
     </div>
+    <div id="switchLang">
+        <p id="language">Finnish</p>
+    </div>
+    <script src="togglelang.js"></script>
 </body>
 </html>
