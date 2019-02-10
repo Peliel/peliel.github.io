@@ -1,4 +1,6 @@
 const fi_en = {
+    "Siirry koko näyttöön": "Enter full screen", 
+    "Poistu koko näytöstä": "Exit full screen", 
     "Suomi": "Finnish", 
     "Englanti": "English", 
     "Minun työni": "My products", 
@@ -13,6 +15,8 @@ const fi_en = {
 };
 
 const en_fi = {
+    "Enter full screen": "Siirry koko näyttöön", 
+    "Exit full screen": "Poistu koko näytöstä", 
     "Finnish": "Suomi", 
     "English": "Englanti", 
     "My products": "Minun työni", 
@@ -37,10 +41,11 @@ const text = {
     "dah": document.getElementById("dah"), 
     "clinka": document.querySelector("li#clink > a"), 
     "language": document.getElementById("language"), 
+    "fullscreen": document.getElementById("fullscreen"), 
     "title": document.getElementsByTagName("title")[0]
 };
 
-const texts = ["header", "wph", "bmagia", "bmagip", "wah", "dodgera", "kb_worma", "dah", "clinka", "language", "title"];
+const texts = ["header", "wph", "bmagia", "bmagip", "wah", "dodgera", "kb_worma", "dah", "clinka", "language", "fullscreen", "title"];
 
 const switchLang = document.getElementById("switchLang");
 const language = document.getElementById("language");
@@ -57,4 +62,4 @@ switchLang.addEventListener("click", function() {
         }
         language.textContent = "Finnish";
     }
-});
+})
