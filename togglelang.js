@@ -36,10 +36,11 @@ const text = {
     "kb_worma": document.querySelector("li#kb_worm > a"), 
     "dah": document.getElementById("dah"), 
     "clinka": document.querySelector("li#clink > a"), 
-    "language": document.getElementById("language")
+    "language": document.getElementById("language"), 
+    "title": document.getElementsByTagName("title")[0]
 };
 
-const texts = ["header", "wph", "bmagia", "bmagip", "wah", "dodgera", "kb_worma", "dah", "clinka", "language"];
+const texts = ["header", "wph", "bmagia", "bmagip", "wah", "dodgera", "kb_worma", "dah", "clinka", "language", "title"];
 
 const switchLang = document.getElementById("switchLang");
 const language = document.getElementById("language");
@@ -56,4 +57,4 @@ switchLang.addEventListener("click", function() {
         }
         language.textContent = "Finnish";
     }
-});
+})
