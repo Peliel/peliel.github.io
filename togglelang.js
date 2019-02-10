@@ -62,4 +62,4 @@ switchLang.addEventListener("click", function() {
         }
         language.textContent = "Finnish";
     }
-})
+});
