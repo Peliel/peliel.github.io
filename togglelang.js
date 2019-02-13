@@ -54,15 +54,15 @@ const switchLang = document.getElementById("switchLang");
 const language = document.getElementById("language");
 
 switchLang.addEventListener("click", function() {
-    if (language.textContent == "Finnish") {
+    if (language.textContent == "Suomi") {
         for (let i = 0; i < texts.length; i++) {
             text[texts[i]].textContent = en_fi[text[texts[i]].textContent];
         }
-        language.textContent = "Englanti";
-    } else if (language.textContent == "Englanti") {
+        language.textContent = "English";
+    } else if (language.textContent == "English") {
         for (let i = 0; i < texts.length; i++) {
             text[texts[i]].textContent = fi_en[text[texts[i]].textContent];
         }
-        language.textContent = "Finnish";
+        language.textContent = "Suomi";
     }
 });
