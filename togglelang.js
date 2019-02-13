@@ -11,7 +11,8 @@ const fi_en = {
     "Dodger": "Dodger", 
     "Näppäinmato": "Keyboard worm", 
     "Työpöytäsovellukset": "Desktop applications", 
-    "Työpöytälinkki Google Classroomiin": "Desktop link to Google Classroom"
+    "Työpöytälinkki Google Classroomiin": "Desktop link to Google Classroom", 
+    "Saa tekstiä ilmestymään taianomaisesti tekstikenttään": "Make text magically appear to text area"
 };
 
 const en_fi = {
@@ -27,7 +28,8 @@ const en_fi = {
     "Dodger": "Dodger", 
     "Keyboard worm": "Näppäinmato", 
     "Desktop applications": "Työpöytäsovellukset", 
-    "Desktop link to Google Classroom": "Työpöytälinkki Google Classroomiin"
+    "Desktop link to Google Classroom": "Työpöytälinkki Google Classroomiin", 
+    "Make text magically appear to text area": "Saa tekstiä ilmestymään taianomaisesti tekstikenttään"
 };
 
 const text = {
@@ -40,12 +42,13 @@ const text = {
     "kb_worma": document.querySelector("li#kb_worm > a"), 
     "dah": document.getElementById("dah"), 
     "clinka": document.querySelector("li#clink > a"), 
+    "slinka": document.querySelector("li#slink > a"), 
     "language": document.getElementById("language"), 
     "fullscreen": document.getElementById("fullscreen"), 
     "title": document.getElementsByTagName("title")[0]
 };
 
-const texts = ["header", "wph", "bmagia", "bmagip", "wah", "dodgera", "kb_worma", "dah", "clinka", "language", "fullscreen", "title"];
+const texts = ["header", "wph", "bmagia", "bmagip", "wah", "dodgera", "kb_worma", "dah", "clinka", "slinka", "language", "fullscreen", "title"];
 
 const switchLang = document.getElementById("switchLang");
 const language = document.getElementById("language");
