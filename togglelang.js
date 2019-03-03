@@ -31,7 +31,7 @@ const en_fi = {
     "Desktop applications": "Työpöytäsovellukset", 
     "Desktop link to Google Classroom": "Työpöytälinkki Google Classroomiin", 
     "Make text magically appear to text area": "Saa tekstiä ilmestymään taianomaisesti tekstikenttään", 
-    "Scientific calculator": "Funktiolaskin
+    "Scientific calculator": "Funktiolaskin"
 };
 
 const text = {
