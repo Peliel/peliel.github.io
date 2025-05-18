@@ -10,7 +10,7 @@ The model is trained only on English language.
 ---
 
 Access the model here:  
-[https://c248958062dfc02c4b.gradio.live/](https://c248958062dfc02c4b.gradio.live/)  
+[https://20580969665b1f3bf6.gradio.live/](https://20580969665b1f3bf6.gradio.live/)  
 If the link does not work, find it from the GitHub repo readme:  
 [https://github.com/Peliel/peliel.github.io/tree/master](https://github.com/Peliel/peliel.github.io/tree/master).
 
