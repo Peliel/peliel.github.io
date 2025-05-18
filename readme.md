@@ -16,6 +16,10 @@ If the link does not work, find it from the GitHub repo readme:
 
 ---
 
+Currently spells with greatness > 10 increase your aura, and if the spell is a hp spell (in case of hp, greatness = 10 makes a minor increment; aura is not affected), it increases your hp. On the other hand spells with greatness < 10 decrease your aura and if the spell is an hp spell, it also makes a minor deduction to your hp ("spell was cringe and failed").
+
+---
+
 If you run into errors or the link does not work, please email us at [oscar.escartin@aaltoes.com](mailto:oscar.escartin@aaltoes.com) or send us a Telegram message at **@occarius**.
 
 ---
