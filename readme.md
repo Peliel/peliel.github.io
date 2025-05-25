@@ -21,8 +21,6 @@ Currently spells with greatness > 10 increase your aura, and if the spell is a h
 
 Unfortunately, due to limited time, we had to resort to a less optimized model with response time around 10 seconds. Upgrading to ExLlamaV2 models, **the response time would go down to 1-2 seconds**.
 
-If you run into errors or the link does not work, please email us at [oscar.escartin@aaltoes.com](mailto:oscar.escartin@aaltoes.com) or send us a Telegram message at **@occarius**.
-
 ---
 
 Want to learn more? Visit  
